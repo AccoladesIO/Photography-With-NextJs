@@ -13,7 +13,7 @@ const Contact = () => {
             </div>
             <input  className='border shadow-lg p-3 w-full my-4' type="text" placeholder='Subject' />
             <textarea  className='border shadow-lg p-3 w-full ' cols={cols} rows={rows} placeholder='message'></textarea>
-            <button  className='border shadow-lg p-3 w-full mt-2'>Submit</button>
+            <button  className='border shadow-lg p-3 w-full mt-2 hover:bg-black/80 hover:text-white font-bold ease-out duration-300'>Submit</button>
         </form>
     </div>
   )
